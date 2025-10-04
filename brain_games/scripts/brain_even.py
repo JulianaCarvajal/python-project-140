@@ -1,6 +1,8 @@
-import prompt
-from brain_games import check_answer, is_even, welcome_user
 from random import randint
+
+import prompt
+
+from brain_games import check_answer, is_even, welcome_user
 
 
 def main():

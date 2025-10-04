@@ -10,6 +10,8 @@ def check_answer(user_answer: str, actual_answer: str, name: str) -> bool:
         print("Correct!")
         return True
     else:
-        print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{actual_answer}'.")
+        incorrect_answer_message = f"'{user_answer}' is wrong answer ;(.\
+                                     Correct answer was '{actual_answer}'."
+        print(incorrect_answer_message)
         print(f"Let's try again, {name}!")
         return False
