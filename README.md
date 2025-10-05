@@ -10,3 +10,6 @@
 
 ### brain-gcd demo
 [![asciicast](https://asciinema.org/a/45zOPIzjOzZ31m40vHZ8mBJXK.svg)](https://asciinema.org/a/45zOPIzjOzZ31m40vHZ8mBJXK)
+
+### brain-progression demo
+[![asciicast](https://asciinema.org/a/TVgu7kz3qs2nicLQ112ZNO7mN.svg)](https://asciinema.org/a/TVgu7kz3qs2nicLQ112ZNO7mN)

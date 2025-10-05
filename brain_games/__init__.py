@@ -5,6 +5,10 @@ from brain_games.games.calculator import (
 )
 from brain_games.games.gcd import find_gcd, generate_numbers
 from brain_games.games.is_even import generate_number, is_even
+from brain_games.games.progression import (
+           generate_progression,
+           get_missing_number,
+)
 
 __all__ = ("check_answer",
            "evaluate_expression",
@@ -13,5 +17,7 @@ __all__ = ("check_answer",
            "generate_expression",
            "generate_number",
            "generate_numbers",
+           "generate_progression",
+           "get_missing_number",
            "is_even",
            "welcome_user")
