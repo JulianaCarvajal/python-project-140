@@ -1,23 +1,11 @@
-from random import randint
-
-import prompt
-
-from brain_games import check_answer, is_even, welcome_user
+from brain_games import game, generate_number, is_even
 
 
 def main():
-    name = welcome_user()
-    print('Answer "yes" if the number is even, otherwise anser "no".')
-
-    for _ in range(3):
-        number = randint(1, 100)
-        print(f"Question: {number}")
-        guess = prompt.string("Your answer: ")
-        correct_answer = is_even(number)
-        if not check_answer(guess, correct_answer, name):
-            break
-    else:
-        print(f"Congratulations, {name}!")
+    message = 'Answer "yes" if the number is even, otherwise anser "no".'
+    question = generate_number
+    get_answer = is_even
+    game(message, question, get_answer)
 
 
 if __name__ == "__main__":
