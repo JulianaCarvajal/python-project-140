@@ -1,7 +1,7 @@
 from random import randint
 
 
-def is_even(number: float) -> str:
+def is_even(number: int) -> str:
     if number % 2 == 0:
         return "yes"
     else:

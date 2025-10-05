@@ -5,6 +5,7 @@ from brain_games.games.calculator import (
 )
 from brain_games.games.gcd import find_gcd, generate_numbers
 from brain_games.games.is_even import generate_number, is_even
+from brain_games.games.is_prime import is_prime
 from brain_games.games.progression import (
            generate_progression,
            get_missing_number,
@@ -20,4 +21,5 @@ __all__ = ("check_answer",
            "generate_progression",
            "get_missing_number",
            "is_even",
+           "is_prime",
            "welcome_user")
