@@ -1,8 +1,11 @@
 [project]
-name = "hexlet-code"
+name = "brain-games"
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
+description = "A set of small CLI brain games (Even, Calc, GCD, Progression, Prime) to practice logic, code comprehension, and terminal fluency."
+readme = { file = "README.md", content-type = "text/markdown" }
+authors = [
+  { name = "Juliana Carvajal" }
+]
 requires-python = ">=3.12"
 dependencies = [
     "prompt>=0.4.1",
