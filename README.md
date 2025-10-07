@@ -45,7 +45,7 @@ Clone and set up the environment:
 ```sh
 git clone https://github.com/JulianaCarvajal/python-project-140.git
 cd python-project-140
-uv sync
+uv tool install .
 ```
 
 This creates a local virtual environment and installs dependencies.
@@ -55,12 +55,12 @@ This creates a local virtual environment and installs dependencies.
 You can run the console scripts directly (after `uv sync`):
 
 ```sh
-uv run brain-games
-uv run brain-even
-uv run brain-calc
-uv run brain-gcd
-uv run brain-prime
-uv run brain-progression
+brain-games
+brain-even
+brain-calc
+brain-gcd
+brain-prime
+brain-progression
 ```
 
 ### What each command does
