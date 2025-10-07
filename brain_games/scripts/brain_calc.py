@@ -2,10 +2,10 @@ from brain_games import evaluate_expression, game, generate_expression
 
 
 def main():
-    message = 'What is the result of the expression?'
-    question = generate_expression
-    get_answer = evaluate_expression
-    game(message, question, get_answer)
+    MESSAGE = 'What is the result of the expression?'
+    QUESTION_FN = generate_expression
+    GET_ANSWER_FN = evaluate_expression
+    game(MESSAGE, QUESTION_FN, GET_ANSWER_FN)
 
 
 if __name__ == "__main__":

@@ -2,12 +2,12 @@ from random import randint
 
 
 def generate_progression() -> str:
-    len_progression = randint(5, 10)
+    progression_length = randint(5, 10)
     start = randint(1, 100)
     step = randint(1, 10)
-    end = start + len_progression * step
+    end = start + progression_length * step
 
-    missing_number_index = randint(0, len_progression - 1)
+    missing_number_index = randint(0, progression_length - 1)
 
     progression_list = []
 
